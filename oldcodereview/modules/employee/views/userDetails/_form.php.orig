@@ -1,0 +1,115 @@
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'user-details-form',
+	'enableAjaxValidation'=>false,
+)); ?>
+
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
+
+	<?php echo $form->errorSummary($model); ?>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'user_id'); ?>
+		<?php echo $form->textField($model,'user_id',array('size'=>14,'maxlength'=>14)); ?>
+		<?php echo $form->error($model,'user_id'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'first_name'); ?>
+		<?php echo $form->textField($model,'first_name',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'first_name'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'last_name'); ?>
+		<?php echo $form->textField($model,'last_name',array('size'=>45,'maxlength'=>45)); ?>
+		<?php echo $form->error($model,'last_name'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'dob'); ?>
+		<?php $this->widget('application.extensions.jui.EDatePicker',
+	     array(
+	          'name'=>'dob',
+	          'attribute'=>'dob', // Model attribute filed which hold user input
+	          'model'=>$model,            // Model name
+	          'language'=>'en',
+	          'mode'=>'imagebutton',
+	          'theme'=>'redmond',
+	          'value'=>date('Y-m-d'),
+	          'htmlOptions'=>array('size'=>15),
+	          'fontSize'=>'0.8em'
+	         )
+	      );?>
+		<?php echo $form->error($model,'dob'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'country'); ?>
+		<?php echo $form->textField($model,'country',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'country'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'city'); ?>
+		<?php echo $form->textField($model,'city',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'city'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'state'); ?>
+		<?php echo $form->textField($model,'state',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'state'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'street'); ?>
+		<?php echo $form->textField($model,'street',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'street'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'zip'); ?>
+		<?php echo $form->textField($model,'zip',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'zip'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'phone'); ?>
+		<?php echo $form->textField($model,'phone',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->error($model,'phone'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'create_date'); ?>
+		<?php echo $form->textField($model,'create_date'); ?>
+		<?php echo $form->error($model,'create_date'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'modified_date'); ?>
+		<?php echo $form->textField($model,'modified_date'); ?>
+		<?php echo $form->error($model,'modified_date'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php //echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+                <?php echo CHtml::ajaxSubmitButton($model->isNewRecord ? 'Create' : 'Save', 
+                        CHtml::normalizeUrl(array("userDetails/create")),array(
+				'type' =>'POST','update' => '#ajaxResult',
+                                'dataType' => 'html',
+                                        'success'=>'function(data){
+                                        //validate(data);
+                                    }',
+			) ,
+                        array(
+                                    "id"=>"btn_submit_military",
+                                )
+				
+		); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->
