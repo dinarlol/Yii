@@ -1,0 +1,122 @@
+table.gridv3 {
+	box-shadow: 5px 5px 5px #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border:1px solid #09C;
+	font-family:calibri;
+	font-size:16px;
+	width:98%;
+}
+
+table.gridv3 th, table.gridv3 td {
+	text-align:center;
+	background-color:#E0E8FC;
+	border-bottom:1px solid #69C;
+	border-right:1px dotted #69C;
+}
+
+table.gridv3 tr.alt td {
+	background-color:#B4D4FC;
+}
+
+table.gridv3 th {
+	background-color:#69C;
+	color:#FFF;
+	padding:4px;
+	cursor:pointer !important;
+}
+
+table.gridv3 a {
+	color:#000;
+}
+
+table.gridv3 input[type='button']{
+	width:auto;
+	margin:2px;
+}
+
+table.gridv3 tr:hover td {
+	background: #C8DFFB !important;
+}
+
+table.gridv3 caption {
+	margin-left: inherit;
+	margin-right: inherit;
+}
+
+.dataTables_info{
+	width: 60%;
+	float: left;
+	font-family:calibri;
+	font-size:13px;
+	padding-top: 15px;
+}
+
+.dataTables_length {
+	width: 30%;
+	float: left;
+	padding: 10px 0px;
+	font-family:calibri;
+	font-size:12px;
+	display: block;
+}
+
+.dataTables_filter input {
+	padding: 5px;
+	border: solid 1px #69C;
+}
+
+.dataTables_filter {
+	padding: 10px 0px;
+	font-family:calibri;
+	font-size:12px;
+	display: block;
+}
+
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+	font-family:calibri;
+	padding-top: 15px;
+	font-size: 12px;
+}
+
+.paging_full_numbers {
+	width: 40%;
+}
+
+.paging_full_numbers a:active {
+	outline: none;
+}
+
+.paging_full_numbers a:hover {
+	text-decoration: none;
+}
+
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+	font-family:calibri;
+	font-size:12px;
+	border: 1px solid #36C;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 0 2px;
+	cursor: pointer;
+	*cursor: hand;
+	color: #fff !important;
+	padding: 2px 5px;
+}
+
+.paging_full_numbers a.paginate_button {
+	background-color: #69C;
+}
+
+.paging_full_numbers a.paginate_button:hover {
+	background-color: #ccc;
+	text-decoration: none !important;
+}
+
+.paging_full_numbers a.paginate_active {
+	background-color: #99B3FF;
+}

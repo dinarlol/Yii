@@ -1,0 +1,394 @@
+/*
+HTML 5 Template Name: Revolutionary
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@import url(navi.css);
+@import url(forms.css);
+@import url(tables.css);
+@import url(slider.css);
+@import url(homepage.css);
+@import url(gallery.css);
+@import url(portfolio.css);
+
+html{overflow-y:scroll;}
+
+body{
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#919191;
+	background-color:#000000;
+}
+#content-area
+{
+	BORDER-RIGHT: #000 0px solid;
+	BORDER-TOP: #000 0px solid;
+	FLOAT: right;
+	BORDER-LEFT: #000 0px solid;
+	WIDTH: 900px;
+	BORDER-BOTTOM: #000 0px solid;
+	FONT-FAMILY: arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	TEXT-ALIGN: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	height: 700px;	
+}
+
+#content-area-max
+{
+    BORDER-RIGHT: #a7a8ac 0px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: #a7a8ac 0px solid;
+    PADDING-LEFT: 10px;
+    FLOAT: right;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 0px;
+    BORDER-LEFT: #a7a8ac 0px solid;
+    WIDTH: 780px;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #a7a8ac 0px solid;
+    FONT-FAMILY: arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+
+    TEXT-ALIGN: left;
+clear:both;
+}
+#content-area-full
+{
+    CLEAR: both;
+    BORDER-RIGHT: #a7a8ac 0px solid;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: #a7a8ac 0px solid;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 5px;
+    MARGIN: 0px;
+    BORDER-LEFT: #a7a8ac 0px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: #a7a8ac 0px solid;
+    FONT-FAMILY: arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+    TEXT-ALIGN: left
+}
+#content-area DT
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 5px;
+    BACKGROUND: url(../img/infos.gif) no-repeat left 50%;
+    PADDING-BOTTOM: 1px;
+    FONT: bold 16px/18px "Trebuchet MS", Verdana, sans-serif;
+    COLOR: #434343;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none
+}
+#content-area DD
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 25px;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px 0px 3px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #ddd 1px dotted
+}
+#content-area IMG
+{
+    BORDER-RIGHT: #a7a8ac 0px solid;
+    BORDER-TOP: #a7a8ac 0px solid;
+    BORDER-LEFT: #a7a8ac 0px solid;
+    BORDER-BOTTOM: #a7a8ac 0px solid
+}
+.imgSB
+{
+    BORDER-RIGHT: #ddd 5px solid;
+    BORDER-TOP: #ddd 5px solid;
+    BACKGROUND: #fff;
+    MARGIN: 10px 0px 0px;
+    BORDER-LEFT: #ddd 5px solid;
+    WIDTH: 95%;
+    BORDER-BOTTOM: #ddd 5px solid;
+    TEXT-ALIGN: center
+}
+#content-area A:link
+{
+    COLOR: #6389d0;
+    TEXT-DECORATION: none
+}
+#content-area A:visited
+{
+    COLOR: #6389d0;
+    TEXT-DECORATION: none
+}
+#content-area A:hover
+{
+    BACKGROUND: #546a92;
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+#content-area A:active
+{
+    BACKGROUND: #546a92;
+    COLOR: #fff;
+    TEXT-DECORATION: none
+}
+.title .bullet { position: absolute; top: 36px; left: -2px; display: block; width: 8px; height: 8px; }
+
+#content {
+	width: 900px;
+	background-color: #FFF;
+	height: auto;
+}
+.border_img2 {
+	display:inline-block;
+	padding:5px;
+	border-radius:3px;
+
+-moz-border-radius:3px;-webkit-border-radius:3px;			background-color: #CCCCCC;
+	height: 75px;
+	width: 75px;
+}
+.products { padding-bottom: 24px; }
+.products .title { margin: 0 0 0px 0px; width: 900px; }
+.products .title a.title-link { position: absolute; top: 15px; right: 2px; color: #00a7e7; text-decoration: underline; }
+.products .title a.title-link:hover { text-decoration: none; }
+.products .row { height: 298px; }
+.products .active { background-position: 0 0; }
+.best-sellers { padding-bottom: 0; }
+
+.product-holder { display: inline; float: left; padding: 0 8px; width: 206px; }
+.product {
+	position: relative;
+	background: url(images/product-active.png) repeat-y -4000px 0;
+	cursor: pointer;
+	float: left;
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 6px;
+}
+
+#button2 {
+
+     width: 150px;
+
+     height: 30px;
+
+     background-image: url(redfoil.jpg);
+
+     border:2px solid ;
+
+     border-radius: 10px;
+
+     font-size: 14px;
+
+     font-family: Tahoma, Geneva, sans-serif;
+
+     font-weight: bold;
+
+     text-align: center; 
+
+}
+
+#button2 ul {
+
+     height: auto;
+
+     padding: 6px 0px;
+
+     margin: 0px;
+
+}
+
+#button2 a {
+
+     text-decoration: none;
+
+     color: #FFF;
+
+}
+
+#button2:hover {
+
+    opacity:.8;
+
+  }
+.product-bottom { height: 12px; line-height: 0; font-size: 0; background: url(images/product-bottom.png) no-repeat -4000px 0; }
+.product img { display: block; width: 190px; height: 193px; border: solid 1px #bababa; }
+
+.product .desc { padding: 8px 0 0 10px; width: 182px; background: #ff9600 url(images/desc.png) repeat-x 0 0; }
+.product .desc p { font-weight: bold; }
+.product .desc p.price { color: #fff; font-size: 18px; }
+.product .desc span.dollar { font-size: 12px; }
+.product .desc strike { color: #595959; font-style: italic; }
+.product .bottom { height: 11px; line-height: 0; font-size: 0; background: url(images/bottom-desc.png) no-repeat 0 bottom;  }
+.product img.top-label { position: absolute; top: 7px; left: 8px; display: block; width: 88px; height: 70px; border: 0; }
+.product img.new-label { position: absolute; top: 7px; right: 10px; display: block; width: 88px; height: 70px; border: 0; } 
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style:none;}
+.hidden{display:none;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{
+	display:block;
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:left;
+	float: left;
+}
+
+.row1, .row1 a{
+	color:#000000;
+	background-color:#FFFFFF;
+}
+.row1{
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #e5af2b;
+}
+.row2{color:#989898; background-color:#FFFFFF;}
+.row2 a{
+	color:#FFF;
+	background-color:#E5AF2B;
+}
+.row3{color:#FFFFFF; background-color:#00D9E2;}
+.row3 a{color:#000000; background-color:#FFFFFF;}
+.row4, .row4 a{
+	color:#919191;
+	background-color:#e5af2b;
+}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#topbar, #header, #container, #footer, #copyright{display:block; margin:0 auto; width:960px;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:20px; font-weight:normal; font-style:normal; line-height:normal;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'“ '; font-size:26px;}
+blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:block; float:left; margin:0 40px 0 0;}
+.one_quarter{width:200px;}
+.two_quarter{width:460px;}
+.three_quarter{width:710px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Main Header-------------------------------------*/
+
+#header{}
+#header hgroup{float:left; padding:20px 20px 20px 0;}
+#header hgroup h1, header hgroup h2{}
+#header hgroup h1{font-size:36px;}
+#header hgroup h2{font-size:13px;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:20px 0;}
+
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px; font-style:italic; color:#E5AF2B; background-color:#FFFFFF;}
+
+#container .more{text-align:left; text-transform:uppercase; font-size:12px;}
+
+/* ------Content-----*/
+
+#container #content{
+	float:left;
+	width:100%;
+	margin-bottom:0;
+}
+
+#container section{margin:0 0 30px 0;}
+#container .last{margin:0;}
+
+/* ------Comments-----*/
+
+#comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
+#comments li.comment_odd, #comments li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#FF9900; background-color:#F7F7F7;}
+#comments li.comment_even{color:#666666; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#FF9900; background-color:#E8E8E8;}
+#comments article, #comments header{display:block; width:100%;}
+#comments figure{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid #DEDACB; text-align:center;}
+#comments figure img{float:inherit;}
+#comments header address{font-weight:bold;}
+#comments header time{font-size:smaller;}
+#comments article section{margin:0; padding:0;}
+#comments article section p{margin:10px 5px 10px 0; padding:0;}
+
+/* ------Right Column-----*/
+
+#container #right_column{
+	float:right;
+	width:230px;
+}
+aside h2{padding-bottom:8px; font-size:16px; text-transform:uppercase; border-bottom:5px solid #CCCCCC; text-align:right;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{padding:30px 0; font-size:12px; line-height:1.4em;}
+
+#footer .more{text-align:right;}
+
+#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FFFFFF; background-color:#00D9E2; font-size:12px; font-weight:bold; text-transform:uppercase;}
+
+/* ------About Us-----*/
+
+#footer section figure.imgholder{border-color:#555555;}
+
+/* ------Quick Links-----*/
+
+#footer section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px solid #555555;}
+#footer section nav li.last{margin:0;}
+#footer section nav a{padding:0 0 0 10px; background:url("../images/footer_arrow.gif") left center no-repeat;}
+
+a.order-button { display: block; margin: 28px 0 0 13px; width: 70px; height: 50px; background: url(images/order-button.png) no-repeat 0 0; text-indent: -4000px; cursor: pointer; z-index: 50; }
+
+/* ------Blogposts-----*/
+
+#footer section article header, #footer section article address, #footer section article time, #footer section article p{margin:0; padding:0;}
+#footer section article p{margin-top:10px;}
+#footer section article header h2{font-size:14px; font-weight:bold;}
+#footer section article address, #footer section article time{font-size:10px; font-style:normal;}
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{padding:20px 0;}
+#copyright p{margin:0; padding:0; line-height:normal;}
